@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<!--Any Javascript/CSS/meta or any other non HTML content is placed within the "head" element-->
+<head>
+    <!--Meta Data-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Title-->
+    <title>Home | CSDM</title>
+
+    <!--Referencing the CSS-->
+    <link rel = "stylesheet" href = "index.css" type = "text/css">
+    <link rel = "stylesheet" href = "HomeCSS.css" type = "text/css">
+
+    <!--All Javascript functions declared here-->
+    <script>
+
+        //Will make text larger on the press of a button. This is in testing.
+        function enlargeText() {
+            document.getElementById('content').getElementsByClassName('text').style.fontSize = "larger"}
+
+    </script>
+</head>
+<!--End of CSS and Javascript-->
+
+<body>
+    <!--Searches for the RGU Logo-->
+    <img id = "logo" src = "https://upload.wikimedia.org/wikipedia/en/thumb/2/23/Robert_Gordon_University_logo.svg/1280px-Robert_Gordon_University_logo.svg.png"
+         style = "width: 25%; min-width: 270px; margin-left: 4%; margin-top: 1%;">
+
+
+<!--The main tag is for holding all information that will be displayed on the page-->
+<main id = "container" style = "margin-left: 4%; margin-right: 4%; margin-top: 1%;">
+
+    <!--Creates a list which is styled in CSS to make a navigation bar-->
+    <nav>
+        <ul id = "nav-tabs">
+            <li id = "home"> <a class = "active" href = "#">Home</a></li>
+            <li id = "news"> <a class = "tabs" href = "news.html">News</a></li>
+            <li id = "about"> <a class = "tabs" href = "about.html">About Us</a></li>
+            <li id = "research"> <a class = "tabs" href = "research.html">Research</a></li>
+            <li id = "courses"> <a class = "tabs" href = "courses.html">Our Courses</a></li>
+            <li id = "faq"> <a class = "tabs" href = "faq.html">FAQs</a></li>
+            <li><input id = "search" type = "search" placeholder = "Search"></li>
+        </ul>
+    </nav>
+
+    <!--Creates a side bar which is styled using CSS-->
+    <section class = "right">
+        <section class = "side">
+            <h3>Contact Us</h3>
+                <ul>
+                    <li>Email: computing@example.com</li>
+                    <li>Phone: 01234567890</li>
+                    <li><a href = "http://www.comp.rgu.ac.uk/contact-us/">Full contact list</a></li>
+                </ul>
+            <h3>Useful Links</h3>
+                <ul>
+                    <li><a href = "http://www.rgu.ac.uk/about/schools-and-departments/school-of-computing-science-and-digital-media/staff/all-staff">Staff</a></li>
+                    <li><a href = "https://you.rgu.ac.uk/default.aspx">Students</a></li>
+                    <li><a href = "http://www.rgu.ac.uk/about">Parents/Guardians</a></li>
+                    <li><a href = "http://www.comp.rgu.ac.uk/phd-research/">Academics</a></li>
+                </ul>
+
+            <!--Creates the social media logos-->
+            <h3>Find us on Social Media</h3>
+                <a id = "afacebook" href = "https://www.facebook.com/groups/CSRGU/">
+                    <div id = "facebook"><b>f</b></div></a>
+                <a id = "atwitter" href = "https://twitter.com/RGUComputing?lang=en">
+                    <div id = "twitter">
+                        <img src = "https://assets.ifttt.com/images/channels/2/icons/on_color_large.png"
+                             style = "width: 50%;"></div></a>
+                <a id = "ayoutube" href = "https://www.youtube.com/watch?v=llKP-TdsgUw">
+                    <div id = "youtube">
+                        <img src = "https://www.youtube.com/yt/brand/media/image/YouTube_light_color_icon.png"
+                             style = "width: 65%;"></div></a>
+            <br><br><br>
+                <!--Button in testing-->
+                <button onclick = "enlargeText()" style = "margin-left: 8%;">Click Me</button>
+            <br><br><br>
+        </section>
+
+        <section class = "twitter">
+            <a class="twitter-timeline" data-height="500px" href="https://twitter.com/RGUComputing">Tweets by RGUComputing</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </section>
+    </section>
+    <!--End of the side bar code-->
+
+
+    <!--Here is where all the code for relevant page content will go-->
+    <h1>Welcome to RGU's school of Computer Science and Digital Media</h1>
+
+    <br><br>
+
+    <section id = "content">
+
+        <figure>
+            <h2 id = "cap1">Why Study With Us?</h2>
+                <img src = "https://media-cdn.tripadvisor.com/media/photo-s/09/45/01/20/robert-gordon-university.jpg"
+                     style = "width: 50%; height: 50%; border: 2px solid grey; float: right; margin-left: 3%; margin-bottom: 3%; max-width: 400px;">
+                <!--Text belonging to the image-->
+                <figcaption>Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                    laborum. Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                    laborum.
+                </figcaption>
+        </figure>
+
+            <br><hr class = "break"><br>
+
+        <figure>
+            <h2 id = "cap2">The Best Courses</h2>
+                <img src = "http://www4.rgu.ac.uk/images/feature/alumni_50.jpg"
+                     style = "width: 50%; height: 50%; border: 2px solid grey; float: right; margin-left: 3%; margin-bottom: 3%; max-width: 400px;">
+            <!--Text belonging to the image-->
+            <figcaption>
+                Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                laborum. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                laborum.
+            </figcaption>
+        </figure>
+
+        <br><hr class = "break"><br>
+
+        <figure>
+            <h2 id = "cap3">The Latest on CSDM</h2>
+                <img src = "https://upload.wikimedia.org/wikipedia/commons/0/0e/Plaza_at_The_Robert_Gordon_University_2.jpg"
+                     style = "width: 50%; height: 50%; border: 2px solid grey; float: right; margin-left: 3%; margin-bottom: 3%; max-width: 400px;">
+            <!--Text belonging to the image-->
+            <figcaption>
+                Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                laborum. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                laborum.
+            </figcaption>
+        </figure>
+
+            <br><hr style = "width: 85%; border-width: 0;"><br>
+
+    </section>
+    <!--End of the relative content placement section-->
+
+</main>
+<!--End of the main container-->
+
+<!--Code for the footer-->
+<footer>
+    <p>School of Computer Science and Digital Media</p>
+</footer>
+<!--End of footer Code-->
+
+</body>
+</html>

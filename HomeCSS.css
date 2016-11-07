@@ -1,0 +1,110 @@
+/*CSS that designs the screen for a window/device size of < 1000px*/
+@media only screen and (max-width: 1000px) {
+
+    figure {
+        margin: 3%;
+    }
+
+    /*CSS for the topic texts*/
+    figcaption {
+        text-align: justify;
+    }
+}
+
+
+/*CSS that designs the page for windows/devices > 1000px*/
+@media only screen and (min-width: 1000px) {
+    figure {
+        margin: 0;
+    }
+
+    /*CSS for the topic texts*/
+    figcaption {
+        text-align: justify;
+    }
+}
+
+
+/*CSS for the colour of the topic headings*/
+#cap1 {
+    color: red;
+    padding: 0;
+}
+
+#cap2 {
+    color: #E5CD00;
+    padding: 0;
+}
+
+#cap3 {
+    color: #23C6D0;
+    padding: 0;
+}
+
+/*Makes sure the image stays above the line*/
+@media only screen and (min-width: 1000px) {
+    hr.break {
+        margin-top: 7%;
+    }
+}
+
+
+/*CSS that colours the navigation bars text when the mouse hovers over it*/
+li a.active {
+    color: #2B77EC;
+}
+
+#news a:hover {
+    color: #E5212A;
+    animation-name: news;
+    animation-duration: 0.5s;
+}
+
+@keyframes news {
+    from {color: white;}
+    to {color: #E5212A;}
+}
+
+#about a:hover {
+    color: #FFF829;
+    animation-name: about;
+    animation-duration: 0.5s;
+}
+
+@keyframes about {
+    from {color: white;}
+    to {color: #FFF829;}
+}
+
+#research a:hover {
+    color: #60EC3D;
+    animation-name: research;
+    animation-duration: 0.5s;
+}
+
+@keyframes research {
+    from {color: white;}
+    to {color: #60EC3D}
+}
+
+#courses a:hover {
+    color: #FF5F15;
+    animation-name: courses;
+    animation-duration: 0.5s;
+}
+
+@keyframes courses {
+    from {color: white;}
+    to {color: #FF5F15}
+}
+
+#faq a:hover {
+    color: #A12CF8;
+    animation-name: faq;
+    animation-duration: 0.5s;
+}
+
+@keyframes faq {
+    from {color: white;}
+    to {color: #A12CF8}
+}
