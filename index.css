@@ -153,10 +153,6 @@ body {
 /*CSS that designs the a side bar for windows/devices < 650px*/
 @media only screen and (max-width: 650px) {
 
-    nav {
-        position: fixed;
-    }
-
     li a.active {
         float: left;
         display: inline-block;
@@ -175,6 +171,26 @@ body {
 
     h1 {
         font-size: 26px;
+    }
+}
+
+
+/*CSS that designs the a side bar for windows/devices < 500px*/
+@media only screen and (max-width: 500px) {
+
+    #container {
+        padding-top: 5px;
+    }
+
+    nav {
+        position: fixed;
+        width: 100%;
+        top: 0;
+    }
+
+    #logo {
+        margin-top: 80px;
+        margin-bottom: 5px;
     }
 }
 
