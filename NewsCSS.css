@@ -19,6 +19,14 @@ p {
     #text {
         margin: 8%;
     }
+
+    h1 {
+        margin-left: 8%;
+    }
+
+    h2 {
+        margin: 8%;
+    }
 }
 
 /*CSS that colours the navigation bars text when the mouse hovers over it*/

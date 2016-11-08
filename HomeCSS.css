@@ -29,6 +29,10 @@
     figure {
         margin: 8%;
     }
+
+    h1 {
+        margin-left: 8%;
+    }
 }
 
 /*CSS for the colour of the topic headings*/
