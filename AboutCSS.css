@@ -4,6 +4,10 @@
         margin: 3%;
         font-size: 14px;
     }
+
+    h2 {
+        margin: 3%;
+    }
 }
 
 /*CSS that designs the screen for a window/device size of > 1000px*/
