@@ -153,6 +153,10 @@ body {
 /*CSS that designs the a side bar for windows/devices < 650px*/
 @media only screen and (max-width: 650px) {
 
+    nav {
+        position: fixed;
+    }
+
     li a.active {
         float: left;
         display: inline-block;
