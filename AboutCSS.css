@@ -2,6 +2,7 @@
 @media only screen and (max-width: 1000px) {
     #text {
         margin: 3%;
+        font-size: 14px;
     }
 }
 
@@ -11,6 +12,13 @@
 
 p {
     text-align: justify;
+}
+
+/*CSS that designs the page for windows/devices < 400px*/
+@media only screen and (max-width: 400px) {
+    #text {
+        margin: 8%;
+    }
 }
 
 /*CSS that colours the navigation bars text when the mouse hovers over it*/

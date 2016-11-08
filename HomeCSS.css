@@ -19,13 +19,12 @@
         margin: 0;
     }
 
-    /*CSS for the topic texts*/
     figcaption {
         text-align: justify;
     }
 }
 
-
+/*CSS that designs the page for windows/devices < 400px*/
 @media only screen and (max-width: 400px) {
     figure {
         margin: 8%;
