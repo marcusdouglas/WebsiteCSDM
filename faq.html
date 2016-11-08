@@ -40,34 +40,43 @@
     </nav>
 
     <!--Creates a side bar which is styled using CSS-->
-    <section class = "side">
-        <h3>Contact Us</h3>
-        <ul>
-            <li>Email: computing@example.com</li>
-            <li>Phone: 01234567890</li>
-            <li><a href = "http://www.comp.rgu.ac.uk/contact-us/">Full contact list</a></li>
-        </ul>
-        <h3>Useful Links</h3>
-        <ul>
-            <li><a href = "http://www.rgu.ac.uk/about/schools-and-departments/school-of-computing-science-and-digital-media/staff/all-staff">Staff</a></li>
-            <li><a href = "https://you.rgu.ac.uk/default.aspx">Students</a></li>
-            <li><a href = "http://www.rgu.ac.uk/about">Parents/Guardians</a></li>
-            <li><a href = "http://www.comp.rgu.ac.uk/phd-research/">Academics</a></li>
-        </ul>
+    <section class = "right">
+        <section class = "side">
+            <h3>Contact Us</h3>
+            <ul>
+                <li>Email: computing@example.com</li>
+                <li>Phone: 01234567890</li>
+                <li><a href = "http://www.comp.rgu.ac.uk/contact-us/">Full contact list</a></li>
+            </ul>
+            <h3>Useful Links</h3>
+            <ul>
+                <li><a href = "http://www.rgu.ac.uk/about/schools-and-departments/school-of-computing-science-and-digital-media/staff/all-staff">Staff</a></li>
+                <li><a href = "https://you.rgu.ac.uk/default.aspx">Students</a></li>
+                <li><a href = "http://www.rgu.ac.uk/about">Parents/Guardians</a></li>
+                <li><a href = "http://www.comp.rgu.ac.uk/phd-research/">Academics</a></li>
+            </ul>
 
-        <!--Creates the social media logos-->
-        <h3>Find us on Social Media</h3>
-        <a id = "afacebook" href = "https://www.facebook.com/groups/CSRGU/">
-            <div id = "facebook"><b>f</b></div></a>
-        <a id = "atwitter" href = "https://twitter.com/RGUComputing?lang=en">
-            <div id = "twitter">
-                <img src = "https://assets.ifttt.com/images/channels/2/icons/on_color_large.png"
-                     style = "width: 50%;"></div></a>
-        <a id = "ayoutube" href = "https://www.youtube.com/watch?v=llKP-TdsgUw">
-            <div id = "youtube">
-                <img src = "https://www.youtube.com/yt/brand/media/image/YouTube_light_color_icon.png"
-                     style = "width: 65%;"></div></a>
-        <br><br><br><br><br><br>
+            <!--Creates the social media logos-->
+            <h3>Find us on Social Media</h3>
+            <a id = "afacebook" href = "https://www.facebook.com/groups/CSRGU/">
+                <div id = "facebook"><b>f</b></div></a>
+            <a id = "atwitter" href = "https://twitter.com/RGUComputing?lang=en">
+                <div id = "twitter">
+                    <img src = "https://assets.ifttt.com/images/channels/2/icons/on_color_large.png"
+                         style = "width: 50%;"></div></a>
+            <a id = "ayoutube" href = "https://www.youtube.com/watch?v=llKP-TdsgUw">
+                <div id = "youtube">
+                    <img src = "https://www.youtube.com/yt/brand/media/image/YouTube_light_color_icon.png"
+                         style = "width: 65%;"></div></a>
+            <br><br><br>
+            <!--Button in testing-->
+            <button onclick = "enlargeText()" style = "margin-left: 8%;">Click Me</button>
+            <br><br><br>
+        </section>
+
+        <section class = "twitter">
+            <a class="twitter-timeline" data-height="100px" href="https://twitter.com/RGUComputing">Tweets by RGUComputing</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </section>
     </section>
     <!--End of the side bar code-->
 
@@ -79,7 +88,7 @@
 
     <!--All relevant page content to be written in here-->
     <section id = "content">
-        <p>Lorem ipsum dolor sit amet,
+        <p id = "text">Lorem ipsum dolor sit amet,
             consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
             enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.

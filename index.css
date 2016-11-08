@@ -1,12 +1,10 @@
 /*CSS of the Body*/
 body {
     background-color: #BE70CA;
-    font-family: calibri;
+    font-family: Calibri, Geneva, sans-serif;
     padding: 0;
     margin: 0;
 }
-
-
 
 
 /*CSS that designs the screen for a window/device size of > 1000px*/
@@ -19,11 +17,21 @@ body {
         padding-right: 60px;
         min-height: 800px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-top: 1%;
+    }
+
+    #logo {
+        width: 25%;
+        min-width: 270px;
+        margin-left: 4%;
+        margin-top: 1%;
     }
 
     #content {
         margin-left: 0;
-        margin-right: 30%;
+        margin-right: 35%;
     }
 
     #nav-tabs {
@@ -58,6 +66,18 @@ body {
     hr {
         margin: 0;
     }
+
+    footer {
+        background-color: #333;
+        color: white;
+        font-size: 12px;
+        height: 40px;
+        margin-top: 2%;
+        margin-left: 4%;
+        margin-right: 4%;
+        padding: 8px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
 }
 
 
@@ -71,6 +91,13 @@ body {
         padding-right: 0;
         min-height: 800px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    #logo {
+        width: 25%;
+        min-width: 240px;
+        margin-left: 1%;
+        margin-top: 1%;
     }
 
     #nav-tabs {
@@ -111,15 +138,25 @@ body {
         margin-left: 3%;
         margin-right: 3%;
     }
+
+    footer {
+        background-color: #333;
+        color: white;
+        font-size: 12px;
+        height: 40px;
+        padding: 8px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
 }
 
-
+/*CSS that designs the a side bar for windows/devices < 650px*/
 @media only screen and (max-width: 650px) {
+
     li a.active {
         float: left;
         display: inline-block;
         text-decoration: none;
-        font-size: 14px;
+        font-size: 16px;
         padding: 8px;
     }
 
@@ -127,7 +164,7 @@ body {
         display: inline-block;
         text-decoration: none;
         color: white;
-        font-size: 14px;
+        font-size: 16px;
         padding: 8px;
     }
 
@@ -185,20 +222,6 @@ body {
 }
 
 
-/*CSS for the footer*/
-footer {
-    background-color: #333;
-    color: white;
-    font-size: 12px;
-    height: 40px;
-    margin-top: 2%;
-    margin-left: 4%;
-    margin-right: 4%;
-    padding: 8px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-
 /*When hovering the mouse over regular links they are highlighted*/
 a:hover {
     text-decoration: underline;
@@ -233,6 +256,13 @@ a {
 
 #facebook:hover {
     background-color: #084289;
+    animation-name: fbook;
+    animation-duration: 0.5s;
+}
+
+@keyframes fbook {
+    from {background-color: #333;}
+    to {background-color: #084289;}
 }
 
 #afacebook:hover {
@@ -253,6 +283,13 @@ a {
 
 #twitter:hover {
     background-color: #29CAEE;
+    animation-name: twit;
+    animation-duration: 0.5s;
+}
+
+@keyframes twit {
+    from {background-color: #333;}
+    to {background-color: #29CAEE;}
 }
 
 #atwitter:hover {
@@ -273,6 +310,13 @@ a {
 
 #youtube:hover {
     background-color: #E82323;
+    animation-name: utube;
+    animation-duration: 0.5s;
+}
+
+@keyframes utube {
+    from {background-color: #333}
+    to {background-color: #E82323;}
 }
 
 #ayoutube:hover {

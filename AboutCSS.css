@@ -1,6 +1,6 @@
 /*CSS that designs the screen for a window/device size of < 1000px*/
 @media only screen and (max-width: 1000px) {
-    p {
+    #text {
         margin: 3%;
     }
 }

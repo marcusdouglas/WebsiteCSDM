@@ -7,6 +7,7 @@
 
     /*CSS for the topic texts*/
     figcaption {
+        font-size: 14px;
         text-align: justify;
     }
 }
@@ -24,6 +25,12 @@
     }
 }
 
+
+@media only screen and (max-width: 400px) {
+    figure {
+        margin: 8%;
+    }
+}
 
 /*CSS for the colour of the topic headings*/
 #cap1 {
