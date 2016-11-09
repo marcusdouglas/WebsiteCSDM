@@ -25,6 +25,7 @@ body {
     #logo {
         width: 25%;
         min-width: 270px;
+        max-width: 400px;
         margin-left: 4%;
         margin-top: 1%;
     }
