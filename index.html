@@ -11,15 +11,15 @@
     <title>Home | CSDM</title>
 
     <!--Referencing the CSS-->
-    <link rel = "stylesheet" href = "index.css" type = "text/css">
-    <link rel = "stylesheet" href = "HomeCSS.css" type = "text/css">
+    <link rel = "stylesheet" href = "CSS/index.css" type = "text/css">
+    <link rel = "stylesheet" href = "CSS/HomeCSS.css" type = "text/css">
 
 </head>
 <!--End of CSS and Javascript-->
 
 <body>
     <!--Searches for the RGU Logo-->
-    <img id = "logo" src = "https://upload.wikimedia.org/wikipedia/en/thumb/2/23/Robert_Gordon_University_logo.svg/1280px-Robert_Gordon_University_logo.svg.png">
+    <img id = "logo" src = "images/RGUlogo.png">
 
 
 <!--The main tag is for holding all information that will be displayed on the page-->
@@ -59,14 +59,13 @@
             <h3>Find us on Social Media</h3>
                 <a id = "afacebook" href = "https://www.facebook.com/groups/CSRGU/">
                     <div id = "facebook"><b>f</b></div></a>
+
                 <a id = "atwitter" href = "https://twitter.com/RGUComputing?lang=en">
-                    <div id = "twitter">
-                        <img src = "https://assets.ifttt.com/images/channels/2/icons/on_color_large.png"
-                             style = "width: 50%;"></div></a>
+                    <div id = "twitter"><img id = "twitterImg" src = "images/twitterImg.png"></div></a>
+
                 <a id = "ayoutube" href = "https://www.youtube.com/watch?v=llKP-TdsgUw">
-                    <div id = "youtube">
-                        <img src = "https://www.youtube.com/yt/brand/media/image/YouTube_light_color_icon.png"
-                             style = "width: 65%;"></div></a>
+                    <div id = "youtube"><img id = "youtubeImg" src = "images/youtubeImg.png"></div></a>
+
             <br><br><br><br><br><br>
         </section>
 
@@ -86,29 +85,28 @@
 
         <figure>
             <h2 id = "cap1">Why Study With Us?</h2>
-                <img src = "https://media-cdn.tripadvisor.com/media/photo-s/09/45/01/20/robert-gordon-university.jpg"
-                     style = "width: 50%; height: 50%; border: 2px solid grey; float: right; margin-left: 3%; margin-bottom: 3%; max-width: 400px;">
-                <!--Text belonging to the image-->
-                <figcaption>Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                    laborum. Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                    laborum.
-                </figcaption>
+                <img class = "contentImg" src = "images/homeImages/homeImg1.jpg">
+            <!--Text belonging to the image-->
+            <figcaption>
+                Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                laborum. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                laborum.
+            </figcaption>
         </figure>
 
             <br><hr class = "break"><br>
 
         <figure>
             <h2 id = "cap2">The Best Courses</h2>
-                <img src = "http://www4.rgu.ac.uk/images/feature/alumni_50.jpg"
-                     style = "width: 50%; height: 50%; border: 2px solid grey; float: right; margin-left: 3%; margin-bottom: 3%; max-width: 400px;">
+                <img class = "contentImg" src = "images/homeImages/homeImg2.jpg">
             <!--Text belonging to the image-->
             <figcaption>
                 Lorem ipsum dolor sit amet,
@@ -129,8 +127,7 @@
 
         <figure>
             <h2 id = "cap3">The Latest on CSDM</h2>
-                <img src = "https://upload.wikimedia.org/wikipedia/commons/0/0e/Plaza_at_The_Robert_Gordon_University_2.jpg"
-                     style = "width: 50%; height: 50%; border: 2px solid grey; float: right; margin-left: 3%; margin-bottom: 3%; max-width: 400px;">
+                <img class = "contentImg" src = "images/homeImages/homeImg3.jpg">
             <!--Text belonging to the image-->
             <figcaption>
                 Lorem ipsum dolor sit amet,
@@ -147,7 +144,7 @@
             </figcaption>
         </figure>
 
-            <br><hr style = "width: 85%; border-width: 0;"><br>
+            <br><hr id = "pageEnd"><br>
 
     </section>
     <!--End of the relative content placement section-->
