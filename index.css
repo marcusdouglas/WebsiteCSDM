@@ -1,0 +1,370 @@
+/*CSS of the Body*/
+body {
+    /*background-color: #BE70CA;*/
+    background-image: url("http://hxdata.chisa.edu.cn/static/images/sites/default/files/imagecache/collegeimg/500064/34d93ae0171b9e5c63f8631a211560bc.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    font-family: Calibri, Geneva, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*CSS that designs the screen for a window/device size of > 1000px*/
+@media only screen and (min-width: 1000px) {
+
+    #container {
+        height: 100%;
+        background-color: white;
+        padding-top: 30px;
+        padding-left: 60px;
+        padding-right: 60px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-top: 1%;
+    }
+
+    #logo {
+        width: 25%;
+        min-width: 270px;
+        max-width: 400px;
+        margin-left: 4%;
+        margin-top: 1%;
+    }
+
+    #content {
+        margin-left: 0;
+        margin-right: 35%;
+    }
+
+    #nav-tabs {
+        list-style-type: none;
+        background-color: #333;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    li a.active {
+        float: left;
+        display: block;
+        text-decoration: none;
+        font-size: 24px;
+        padding: 16px;
+    }
+
+    .tabs {
+        float: left;
+    }
+
+    li a.tabs {
+        display: block;
+        text-decoration: none;
+        color: white;
+        font-size: 24px;
+        padding: 16px;
+    }
+
+    hr {
+        margin: 0;
+    }
+
+    /*A little CSS for mock search bar*/
+    #search {
+        float: right;
+        width: 200px;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+
+    footer {
+        background-color: #333;
+        color: white;
+        font-size: 14px;
+        height: 40px;
+        margin-top: 2%;
+        margin-left: 4%;
+        margin-right: 4%;
+        padding: 8px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+
+
+/*CSS that designs the screen for a window/device size of < 1000px*/
+@media only screen and (max-width: 1000px) {
+    #container {
+        height: 100%;
+        background-color: white;
+        padding-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+        min-height: 800px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    #logo {
+        width: 25%;
+        min-width: 240px;
+        margin-left: 1%;
+        margin-top: 1%;
+    }
+
+    #nav-tabs {
+        list-style-type: none;
+        background-color: #333;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    li a.active {
+        float: left;
+        display: inline-block;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 8px;
+    }
+
+    .tabs {
+        float: left;
+    }
+
+    li a.tabs {
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        padding: 8px;
+    }
+
+    h1 {
+        margin: 3%;
+    }
+
+
+    hr {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    /*A little CSS for mock search bar*/
+    #search {
+        float: left;
+        width: 100px;
+        margin-top: 10px;
+    }
+
+    footer {
+        background-color: #333;
+        color: white;
+        font-size: 14px;
+        height: 40px;
+        padding: 8px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+
+/*CSS that designs the a side bar for windows/devices < 650px*/
+@media only screen and (max-width: 650px) {
+
+    li a.active {
+        float: left;
+        display: inline-block;
+        text-decoration: none;
+        font-size: 18px;
+        padding: 8px;
+    }
+
+    li a.tabs {
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        padding: 8px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+}
+
+
+/*CSS that designs the a side bar for windows/devices < 500px*/
+@media only screen and (max-width: 500px) {
+
+    #container {
+        padding-top: 5px;
+    }
+
+    nav {
+        position: fixed;
+        width: 100%;
+        top: 0;
+    }
+
+    #logo {
+        margin-top: 90px;
+        margin-bottom: 5px;
+    }
+}
+
+
+/*CSS that designs the a side bar for windows/devices > 1000px*/
+@media only screen and (min-width: 1000px) {
+
+    section.right {
+        width: 28%;
+        max-width: 300px;
+        min-width: 260px;
+        float: right;
+        margin-top: 2%;
+    }
+
+    section.side {
+        width: 100%;
+        height: 100%;
+        max-width: 300px;
+        min-width: 260px;
+        background-color: #B1DFDF;
+        float: right;
+        margin-top: 2%;
+        border-radius: 0;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    section.twitter {
+        width: 100%;
+        max-width: 300px;
+        min-width: 260px;
+        float: right;
+        margin-top: 30%;
+        border-radius: 0;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    h3 {
+        padding-left: 20px;
+        color: #36BF5F;
+    }
+}
+
+
+/*CSS that causes side bar to disappear when window/device width < 1000px*/
+@media all and (max-width: 1000px) {
+
+    section.side{ display: none; }
+
+    section.twitter{ display: none; }
+}
+
+
+/*When hovering the mouse over regular links they are highlighted*/
+a:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*Code for designing the social media app logos*/
+#facebook {
+    background-color: #333;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    width: 50px;
+    border-radius: 6px;
+    margin-left: 8%;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#facebook:hover {
+    background-color: #084289;
+    animation-name: fbook;
+    animation-duration: 0.5s;
+}
+
+@keyframes fbook {
+    from {background-color: #333;}
+    to {background-color: #084289;}
+}
+
+#afacebook:hover {
+    text-decoration: none;
+}
+
+#twitter {
+    background-color: #333;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    width: 50px;
+    border-radius: 6px;
+    margin-left: 4%;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#twitterImg {
+    width: 50%;
+}
+
+#twitter:hover {
+    background-color: #29CAEE;
+    animation-name: twit;
+    animation-duration: 0.5s;
+}
+
+@keyframes twit {
+    from {background-color: #333;}
+    to {background-color: #29CAEE;}
+}
+
+#atwitter:hover {
+    text-decoration: none;
+}
+
+#youtube {
+    background-color: #333;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    width: 50px;
+    border-radius: 6px;
+    margin-left: 4%;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#youtubeImg {
+    width: 65%;
+}
+
+#youtube:hover {
+    background-color: #E82323;
+    animation-name: utube;
+    animation-duration: 0.5s;
+}
+
+@keyframes utube {
+    from {background-color: #333}
+    to {background-color: #E82323;}
+}
+
+#ayoutube:hover {
+    text-decoration: none;
+}
+
+
+#pageEnd {
+    width: 85%;
+    border-width: 0;
+}
