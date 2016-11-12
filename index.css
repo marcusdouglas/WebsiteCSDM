@@ -71,8 +71,8 @@ body {
 
     /*A little CSS for mock search bar*/
     #search {
-        float: left;
-        width: 200px;
+        float: right;
+        width: 15%;
         margin-top: 20px;
         margin-right: 20px;
     }
