@@ -33,7 +33,7 @@ p {
     }
 }
 
-/*CSS that colours the navigation bars text when the mouse hovers over it*/
+/*CSS that colours the navigation bars text depending on the active page and when the mouse hovers over it*/
 li a.active {
     color: #FF5F15;
 }
