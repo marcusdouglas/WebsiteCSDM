@@ -38,7 +38,7 @@ body {
 
     #nav-tabs {
         list-style-type: none;
-        background-color: #333;
+        background-color: #27272A;
         overflow: hidden;
         padding: 0;
         margin: 0;
@@ -78,7 +78,7 @@ body {
     }
 
     footer {
-        background-color: #333;
+        background-color: #27272A;
         color: white;
         font-size: 14px;
         height: 40px;
@@ -112,7 +112,7 @@ body {
 
     #nav-tabs {
         list-style-type: none;
-        background-color: #333;
+        background-color: #27272A;
         overflow: hidden;
         padding: 0;
         margin: 0;
@@ -157,7 +157,7 @@ body {
     }
 
     footer {
-        background-color: #333;
+        background-color: #27272A;
         color: white;
         font-size: 14px;
         height: 40px;
