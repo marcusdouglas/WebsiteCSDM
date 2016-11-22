@@ -1,24 +1,3 @@
-/*CSS that designs the screen for a window/device size of > 1000px*/
-@media only screen and (min-width: 1000px) {
-    #img1 {
-        width: 50%;
-        border: 2px solid grey;
-        float: right;
-        margin-left: 3%;
-    }
-}
-
-/*CSS that designs the screen for a window/device size of < 1000px*/
-@media only screen and (max-width: 1000px) {
-    #img1 {
-        width: 50%;
-        border: 2px solid grey;
-        float: right;
-        margin-left: 3%;
-        margin-right: 3%;
-    }
-}
-
 /*CSS that designs the screen for a window/device size of < 1000px*/
 @media only screen and (max-width: 1000px) {
     #text {
@@ -29,14 +8,24 @@
     h2 {
         margin: 3%;
     }
+
+    .contentImg {
+        width: 50%;
+        border: 2px solid grey;
+        float: right;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
 }
 
 /*CSS that designs the screen for a window/device size of > 1000px*/
 @media only screen and (min-width: 1000px) {
-}
-
-p {
-    text-align: justify;
+    .contentImg {
+        width: 50%;
+        border: 2px solid grey;
+        float: right;
+        margin-left: 3%;
+    }
 }
 
 /*CSS that designs the page for windows/devices < 400px*/
@@ -52,6 +41,18 @@ p {
     h2 {
         margin: 8%;
     }
+
+    .contentImg {
+        width: 50%;
+        border: 2px solid grey;
+        float: right;
+        margin-left: 3%;
+        margin-right: 8%;
+    }
+}
+
+p {
+    text-align: justify;
 }
 
 /*CSS that colours the navigation bars text depending on the active page and when the mouse hovers over it*/
