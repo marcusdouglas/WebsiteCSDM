@@ -28,3 +28,98 @@
         margin-bottom: 3%;
     }
 }
+
+/*CSS that designs the screen for a window/device size of < 1000px*/
+@media only screen and (max-width: 1000px) {
+    #text {
+        margin: 3%;
+        font-size: 14px;
+    }
+
+    h2 {
+        margin: 3%;
+    }
+}
+
+/*CSS that designs the screen for a window/device size of > 1000px*/
+@media only screen and (min-width: 1000px) {
+}
+
+p {
+    text-align: justify;
+}
+
+/*CSS that designs the page for windows/devices < 400px*/
+@media only screen and (max-width: 400px) {
+    #text {
+        margin: 8%;
+    }
+
+    h1 {
+        margin-left: 8%;
+    }
+
+    h2 {
+        margin: 8%;
+    }
+}
+
+/*CSS that colours the navigation bars text depending on the active page and when the mouse hovers over it*/
+li a.active {
+    color: #E5212A;
+}
+
+#home a:hover {
+    color: #2B77EC;
+    animation-name: home;
+    animation-duration: 0.5s;
+}
+
+@keyframes home {
+    from {color: white;}
+    to {color: #2B77EC;}
+}
+
+#about a:hover {
+    color: #FFF829;
+    animation-name: about;
+    animation-duration: 0.5s;
+}
+
+@keyframes about {
+    from {color: white;}
+    to {color: #FFF829;}
+}
+
+#research a:hover {
+    color: #60EC3D;
+    animation-name: research;
+    animation-duration: 0.5s;
+}
+
+@keyframes research {
+    from {color: white;}
+    to {color: #60EC3D}
+}
+
+#courses a:hover {
+    color: #FF5F15;
+    animation-name: courses;
+    animation-duration: 0.5s;
+}
+
+@keyframes courses {
+    from {color: white;}
+    to {color: #FF5F15}
+}
+
+#faq a:hover {
+    color: #A12CF8;
+    animation-name: faq;
+    animation-duration: 0.5s;
+}
+
+@keyframes faq {
+    from {color: white;}
+    to {color: #A12CF8}
+}
