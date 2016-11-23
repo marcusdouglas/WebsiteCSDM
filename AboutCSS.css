@@ -18,8 +18,8 @@ p {
     text-align: justify;
 }
 
-/*CSS that designs the page for windows/devices < 650px*/
-@media only screen and (max-width: 650px) {
+/*CSS that designs the page for windows/devices < 500px*/
+@media only screen and (max-width: 500px) {
     #text {
         margin: 8%;
     }
