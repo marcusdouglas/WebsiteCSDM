@@ -20,14 +20,14 @@
     }
 
     .left {
-        width: 40%;
+        width: 30%;
         float: left;
         margin-left: 3%;
         margin-right: 3%;
     }
 
     .right {
-        width: 40%;
+        width: 30%;
         float: right;
         margin-left: 3%;
         margin-right: 3%;
@@ -36,6 +36,10 @@
     .contentImg {
         width: 100%;
         border: 2px solid grey;
+    }
+
+    #img2 {
+        max-height:260px;
     }
 }
 
@@ -63,14 +67,22 @@
         width: 100%;
         border: 2px solid grey;
     }
+
+    #img1 {
+        max-height: 220px;
+    }
+
+    #img2 {
+        max-height: 260px;
+    }
 }
 
 p {
     text-align: justify;
 }
 
-/*CSS that designs the page for windows/devices < 500px*/
-@media only screen and (max-width: 500px) {
+/*CSS that designs the page for windows/devices < 400px*/
+@media only screen and (max-width: 400px) {
     .text {
         margin: 8%;
     }
@@ -108,6 +120,14 @@ p {
     .contentImg {
         width: 100%;
         border: 2px solid grey;
+    }
+
+    #img1 {
+        max-height: 160px;
+    }
+
+    #img2 {
+        max-height: 180px;
     }
 }
 
