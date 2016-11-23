@@ -12,8 +12,7 @@
         display: inline-block;
         text-align: center;
         width: 160px;
-        padding: 1%;
-        margin: 1%;
+        margin: 3%;
     }
     img.images {
         width: 160px;
@@ -62,8 +61,7 @@ p {
         display: inline-block;
         text-align: center;
         width: 120px;
-        padding: 1%;
-        margin: 1.5%;
+        margin: 5%;
     }
     img.images {
         width: 120px;
