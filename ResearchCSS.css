@@ -8,20 +8,71 @@
     h2 {
         margin: 3%;
     }
+    /* Image Links */
+
+    #firstCaption {
+        width: 28%;
+        min-width: 120px;
+        display: inline-block;
+        margin-left: 3%;
+    }
+
+    div.captions {
+        width: 28%;
+        min-width: 120px;
+        display: inline-block;
+        margin-left: 4%;
+    }
+
+    img.images {
+        width: 100%;
+        border: 2px solid grey;
+    }
+    /* End of Image Links */
 }
 
 /*CSS that designs the screen for a window/device size of > 1000px*/
 @media only screen and (min-width: 1000px) {
+    /* Image Links */
+
+    #firstCaption {
+        width: 28%;
+        min-width: 120px;
+        display: inline-block;
+        margin: 0;
+    }
+
+    div.captions {
+        width: 28%;
+        min-width: 120px;
+        display: inline-block;
+        margin-left: 7%;
+    }
+
+    img.images {
+        width: 100%;
+        border: 2px solid grey;
+    }
+    /* End of Image Links */
 }
 
 p {
     text-align: justify;
 }
 
-/*CSS that designs the page for windows/devices < 400px*/
-@media only screen and (max-width: 400px) {
+p.capText {
+    text-align: center;
+}
+
+/*CSS that designs the page for windows/devices < 650px*/
+@media only screen and (max-width: 650px) {
     #text {
         margin: 8%;
+        border-top: 1px solid grey;
+    }
+
+    .capText {
+        font-size: 18px;
     }
 
     h1 {
@@ -31,6 +82,30 @@ p {
     h2 {
         margin: 8%;
     }
+
+    /* Image Links */
+    #firstCaption {
+        width: 60%;
+        max-width: 200px;
+        min-width: 120px;
+        display: block;
+        margin-left: 20%;
+    }
+
+    div.captions {
+        width: 60%;
+        max-width: 200px;
+        min-width: 120px;
+        display: block;
+        margin-left: 20%;
+        margin-top: 8%;
+    }
+
+    img.images {
+        width: 100%;
+        border: 2px solid grey;
+    }
+    /* End of Image Links */
 }
 
 /*CSS that colours the navigation bars text depending on the active page and when the mouse hovers over it*/

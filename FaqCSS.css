@@ -1,6 +1,6 @@
 /*CSS that designs the screen for a window/device size of < 1000px*/
 @media only screen and (max-width: 1000px) {
-    #text {
+    .text {
         margin: 3%;
         font-size: 14px;
     }
@@ -8,19 +8,70 @@
     h2 {
         margin: 3%;
     }
+
+    h3 {
+        margin-left: 3%;
+    }
+
+    .faqH3 {
+        /*Changing the colour back to black and making sure there's no indentation for these headings*/
+        color: #000000;
+        padding-left: 0;
+    }
+
+    .left {
+        width: 40%;
+        float: left;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .right {
+        width: 40%;
+        float: right;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .contentImg {
+        width: 100%;
+        border: 2px solid grey;
+    }
 }
 
 /*CSS that designs the screen for a window/device size of > 1000px*/
 @media only screen and (min-width: 1000px) {
+    .faqH3 {
+        /*Changing the colour back to black and making sure there's no indentation for these headings*/
+        color: #000000;
+        padding-left: 0;
+    }
+
+    .left {
+        width: 40%;
+        float: left;
+        margin-right: 3%;
+    }
+
+    .right {
+        width: 40%;
+        float: right;
+        margin-left: 3%;
+    }
+
+    .contentImg {
+        width: 100%;
+        border: 2px solid grey;
+    }
 }
 
 p {
     text-align: justify;
 }
 
-/*CSS that designs the page for windows/devices < 400px*/
-@media only screen and (max-width: 400px) {
-    #text {
+/*CSS that designs the page for windows/devices < 650px*/
+@media only screen and (max-width: 650px) {
+    .text {
         margin: 8%;
     }
 
@@ -30,6 +81,33 @@ p {
 
     h2 {
         margin: 8%;
+    }
+
+    h3 {
+        margin: 8%;
+    }
+
+    .faqH3 {
+        /*Changing the colour back to black and making sure there's no indentation for these headings*/
+        color: #000000;
+        padding-left: 0;
+    }
+
+    .left {
+        width: 82%;
+        float: left;
+        margin-left: 8%;
+    }
+
+    .right {
+        width: 82%;
+        float: left;
+        margin-left: 8%;
+    }
+
+    .contentImg {
+        width: 100%;
+        border: 2px solid grey;
     }
 }
 
