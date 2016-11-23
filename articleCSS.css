@@ -10,7 +10,7 @@
     }
 
     .contentImg {
-        width: 50%;
+        width: 200px;
         border: 2px solid grey;
         float: right;
         margin-left: 3%;
@@ -21,7 +21,7 @@
 /*CSS that designs the screen for a window/device size of > 1000px*/
 @media only screen and (min-width: 1000px) {
     .contentImg {
-        width: 50%;
+        width: 200px;
         border: 2px solid grey;
         float: right;
         margin-left: 3%;
@@ -43,7 +43,7 @@
     }
 
     .contentImg {
-        width: 50%;
+        width: 100px;
         border: 2px solid grey;
         float: right;
         margin-left: 3%;
