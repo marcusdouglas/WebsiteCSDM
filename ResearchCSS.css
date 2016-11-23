@@ -68,6 +68,11 @@ p.capText {
 @media only screen and (max-width: 650px) {
     #text {
         margin: 8%;
+        border-top: 1px solid grey;
+    }
+
+    .capText {
+        font-size: 18px;
     }
 
     h1 {
@@ -81,16 +86,19 @@ p.capText {
     /* Image Links */
     #firstCaption {
         width: 60%;
+        max-width: 200px;
         min-width: 120px;
         display: block;
-        margin-left: 8%;
+        margin-left: 20%;
     }
 
     div.captions {
         width: 60%;
+        max-width: 200px;
         min-width: 120px;
         display: block;
-        margin-left: 8%;
+        margin-left: 20%;
+        margin-top: 8%;
     }
 
     img.images {
