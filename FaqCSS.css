@@ -121,6 +121,10 @@ p {
         width: 100%;
         border: 2px solid grey;
     }
+    
+    #img1 {
+        max-height: 160px;
+    }
 
     #img2 {
         max-height: 180px;
