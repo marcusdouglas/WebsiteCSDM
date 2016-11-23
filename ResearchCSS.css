@@ -64,8 +64,8 @@ p.capText {
     text-align: center;
 }
 
-/*CSS that designs the page for windows/devices < 400px*/
-@media only screen and (max-width: 400px) {
+/*CSS that designs the page for windows/devices < 650px*/
+@media only screen and (max-width: 650px) {
     #text {
         margin: 8%;
     }
