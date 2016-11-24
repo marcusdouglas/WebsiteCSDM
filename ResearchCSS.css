@@ -80,7 +80,7 @@ p.capText {
     }
 
     h2 {
-        margin-left: 20%;
+        margin-left: 8%;
     }
 
     /* Image Links */
@@ -89,7 +89,7 @@ p.capText {
         max-width: 200px;
         min-width: 120px;
         display: block;
-        margin-left: 20%;
+        margin-left: 8%;
     }
 
     div.captions {
@@ -97,7 +97,7 @@ p.capText {
         max-width: 200px;
         min-width: 120px;
         display: block;
-        margin-left: 20%;
+        margin-left: 8%;
         margin-top: 8%;
     }
 

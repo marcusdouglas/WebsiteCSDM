@@ -1,16 +1,12 @@
 /*CSS that designs the screen for a window/device size of < 1000px*/
 @media only screen and (max-width: 1000px) {
-    #text {
-        margin: 3%;
-        font-size: 14px;
-    }
     h2 {
         margin: 3%;
     }
     div.articles {
         vertical-align: top;
         display: inline-block;
-        text-align: center;
+        text-align: left;
         width: 160px;
         margin: 3%;
     }
@@ -21,6 +17,7 @@
     }
     .caption {
         display: block;
+        font-size: 18px;
     }
 }
 /*CSS that designs the screen for a window/device size of > 1000px*/
@@ -28,7 +25,7 @@
     div.articles {
         vertical-align: top;
         display: inline-block;
-        text-align: center;
+        text-align: left;
         width: 200px;
         padding: 1%;
         margin: 1%;
@@ -40,6 +37,7 @@
     }
     .caption {
         display: block;
+        font-size: 18px;
     }
 }
 p {
@@ -47,9 +45,6 @@ p {
 }
 /*CSS that designs the page for windows/devices < 500px*/
 @media only screen and (max-width: 500px) {
-    #text {
-        margin: 8%;
-    }
     h1 {
         margin-left: 8%;
     }
