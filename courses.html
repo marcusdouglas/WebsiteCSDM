@@ -34,7 +34,7 @@
             <li id = "research"> <a class = "tabs" href = "research.html">Research</a></li>
             <li id = "courses"> <a class = "active" href = "#">Our Courses</a></li>
             <li id = "faq"> <a class = "tabs" href = "faq.html">FAQs</a></li>
-            <li><input id = "search" type = "search" placeholder = "Search"></li>
+            <li id = "search"><input id = "inputBar" type = "search"  placeholder = "Search"/><a href = "#"><input type = "submit" value = "Go"/></a></li>
         </ul>
     </nav>
 
@@ -77,47 +77,135 @@
 
 
     <!--The title of the relevant page is made here-->
-    <h1>Title</h1>
+    <h1>Find The Right Course For You</h1>
 
     <br><br>
 
     <!--All relevant page content to be written in here-->
     <section id = "content">
-        <h2>Sub Heading</h2>
-        <p id = "text">Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-            laborum. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-            laborum.Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-            laborum. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-            laborum.Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-            laborum. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-            laborum.</p>
+
+        <select id = "list" title = "courses">
+
+            <option value="">Select the Study Area that you are interested in</option>
+            <option value="Digital Media">Digital Media</option>
+            <option value="Cyber Security">Cyber Security</option>
+            <option value="Computer Network Management and Design">Computer Network Management and Design</option>
+            <option value="Computer Science">Computer Science</option>
+            <option value="Computing">Computing</option>
+            <option value="Data Science">Data Science</option>
+            <option value="Information and Network Security">Information and Network Security</option>
+            <option value="IT for the Oil and Gas Industry">IT for the Oil and Gas Industry</option>
+            <option value="Other...">Other...</option>
+
+        </select>
+
+        <input type="submit" value="Search">
+
+        <p>Please choose from the drop down list above to find the study area that you are interested in.</p>
+
+
+        <div class = "left">
+            <h3>
+                <a href = "http://www.rgu.ac.uk/areas-of-study/subjects/computing/study-options/undergraduate" target = "_blank" title = "Opens in a new window">
+                    Undergraduate Courses
+                </a>
+            </h3>
+
+            <a href = "http://www.rgu.ac.uk/areas-of-study/subjects/computing/study-options/undergraduate" target = "_blank" title = "Opens in a new window">
+                <img class = "contentImg" src = "images/courseImages/courseImg1.jpg" alt = "Visit Afternoons"/>
+            </a>
+
+            <p>See the range of courses we have on offer and what your time at University will be like.</p>
+        </div>
+
+
+
+        <div class = "right">
+            <h3>
+                <a href = "http://www.rgu.ac.uk/areas-of-study/subjects/computing/study-options/postgraduate"  title = "Postgraduate Courses">
+                    Postgraduate Courses
+                </a>
+            </h3>
+
+            <a href = "http://www.rgu.ac.uk/areas-of-study/subjects/computing/study-options/postgraduate"  title = "Postgraduate Courses">
+                <img class = "contentImg" src = "images/courseImages/courseImg2.jpg" alt = "Postgraduate Courses"/>
+            </a>
+
+
+            <p>Click here to find the details of your chosen course, such as possible hours available.</p>
+        </div>
+
+
+
+
+        <div class = "left">
+            <h3>
+                <a href = "http://www.rgu.ac.uk/areas-of-study/subjects/computing/study-options/part-time-learning"  title = "Part Time">
+                    Part Time Courses
+                </a>
+            </h3>
+
+            <a href = "http://www.rgu.ac.uk/areas-of-study/subjects/computing/study-options/part-time-learning"  title = "Part Time">
+                <img class = "contentImg" src = "images/courseImages/courseImg3.jpg" alt = "Part Time Courses"/>
+            </a>
+
+
+            <p>Find the best possible times for you to attend University and what each course has on offer.</p>
+        </div>
+
+
+
+        <div class = "right">
+            <h3>
+                <a href = "http://www.rgu.ac.uk/news-and-events/visit-us/undergraduate-events/open-days/open-days/"  title = "Open Days">
+                    Open Days
+                </a>
+            </h3>
+
+            <a href = "http://www.rgu.ac.uk/news-and-events/visit-us/undergraduate-events/open-days/open-days/"  title = "Open Days">
+                <img class = "contentImg" src = "images/courseImages/courseImg4.jpg" alt = "Open Days"/>
+            </a>
+
+
+            <p>See the layout of the campus and get an introduction of what open days are all about.</p>
+        </div>
+
+
+
+        <div class = "left">
+            <h3>
+                <a href = "http://www.rgu.ac.uk/areas-of-study/subjects/computing/study-options/distance-learning/computing-distance-and-flexible-learning"  title = "Study Online">
+                    Study Online
+                </a>
+            </h3>
+
+            <a href = "http://www.rgu.ac.uk/areas-of-study/subjects/computing/study-options/distance-learning/computing-distance-and-flexible-learning"  title = "Study Onine">
+                <img class = "contentImg" src = "images/courseImages/courseImg5.jpg" alt = "Study Online"/>
+            </a>
+
+            <p>Click here to find out what courses allow you to study at home or abroad.</p>
+        </div>
+
+
+        <div class = "right">
+            <h3>
+                <a href = "http://www.rgu.ac.uk/contact-us/prospectuses-and-guides"  title = "Study Guides">
+                    Study Guides
+                </a>
+            </h3>
+
+            <a href = "http://www.rgu.ac.uk/contact-us/prospectuses-and-guides"  title = "Study Guides">
+                <img class = "contentImg" src = "images/courseImages/courseImg6.jpg" alt = "Study Guides"/>
+            </a>
+
+
+            <p>Click here to order one of our study guides to ensure you get the best out of your course.</p>
+        </div>
+        <!--End of the relative content placement section-->
+
+
+        <br><hr id = "pageEnd"><br>
     </section>
-    <!--End of the relative content placement section-->
-    <br><hr id = "pageEnd"><br>
 </main>
 <!--End of the main container-->
 

@@ -1,30 +1,22 @@
 <!DOCTYPE html>
 <html lang = "en">
-
 <!--Any Javascript/CSS/meta or any other non HTML content is placed within the "head" element-->
 <head>
     <!--Meta Data-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <!--Title-->
     <title>News | CSDM</title>
-
     <!--Referencing the CSS-->
     <link rel = "stylesheet" href = "index.css" type = "text/css">
     <link rel = "stylesheet" href = "NewsCSS.css" type = "text/css">
-
 </head>
 <!--End of CSS-->
-
 <body>
 <!--Searches for the RGU Logo-->
 <img id = "logo" src = "images/RGUlogo.png">
-
-
 <!--The main tag is for holding all information that will be displayed on the page-->
 <main id = "container">
-
     <!--Creates a list which is styled in CSS to make a navigation bar-->
     <nav>
         <ul id = "nav-tabs">
@@ -34,10 +26,9 @@
             <li id = "research"> <a class = "tabs" href = "research.html">Research</a></li>
             <li id = "courses"> <a class = "tabs" href = "courses.html">Our Courses</a></li>
             <li id = "faq"> <a class = "tabs" href = "faq.html">FAQs</a></li>
-            <li><input id = "search" type = "search" placeholder = "Search"></li>
+            <li id = "search"><input id = "inputBar" type = "search"  placeholder = "Search"/><a href = "#"><input type = "submit" value = "Go"/></a></li>
         </ul>
     </nav>
-
     <!--Creates a side bar which is styled using CSS-->
     <section class = "right">
         <section class = "side">
@@ -51,81 +42,90 @@
             <ul>
                 <li><a href = "http://www.rgu.ac.uk/about/schools-and-departments/school-of-computing-science-and-digital-media/staff/all-staff">Staff</a></li>
                 <li><a href = "https://you.rgu.ac.uk/default.aspx">Students</a></li>
-                <li><a href = "http://www.rgu.ac.uk/about">Parents/Guardians</a></li>
+                <li><a href ="http://www.rgu.ac.uk/about">Parents/Guardians</a></li>
                 <li><a href = "http://www.comp.rgu.ac.uk/phd-research/">Academics</a></li>
             </ul>
-
             <!--Creates the social media logos-->
             <h3>Find us on Social Media</h3>
-                <a id = "afacebook" href = "https://www.facebook.com/groups/CSRGU/">
-                    <div id = "facebook"><b>f</b></div></a>
-
+            <a id = "afacebook" href = "https://www.facebook.com/groups/CSRGU/">
+                <div id = "facebook"><b>f</b></div></a>
             <a id = "atwitter" href = "https://twitter.com/RGUComputing?lang=en">
                 <div id = "twitter"><img id = "twitterImg" src = "images/twitterImg.png"></div></a>
-
             <a id = "ayoutube" href = "https://www.youtube.com/watch?v=llKP-TdsgUw">
                 <div id = "youtube"><img id = "youtubeImg" src = "images/youtubeImg.png"></div></a>
-
             <br><br><br><br><br><br>
         </section>
-
         <section class = "twitter">
             <a class="twitter-timeline" data-height="500px" href="https://twitter.com/RGUComputing">Tweets by RGUComputing</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
         </section>
     </section>
     <!--End of the side bar code-->
 
-
     <!--The title of the relevant page is made here-->
-    <h1>Title</h1>
-
+    <h1>Latest News and Events</h1>
     <br><br>
 
     <!--All relevant page content to be written in here-->
     <section id = "content">
-        <h2><a href = "articleOne.html">Sub Heading</a></h2>
-            <p id = "text">Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                laborum. Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                laborum.Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                laborum. Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                laborum.Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                laborum. Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                laborum.</p>
-        </section>
-        <!--End of the relative content placement section-->
+        <div class="articles">
+            <img class = "images" src="images/newsImages/newsImg1.jpg"/>
+            <span class="caption"><a href = "articleOne.html">Cyber Security Challenge</a></span>
+            <span class = "captionText">Dieter Holvoet, Florian Peyron, Alexa Noel and Brent...</span>
+        </div>
+        <div class="articles">
+            <img class = "images" src="images/newsImages/newsImg2.jpg"/>
+            <span class="caption"><a href = "articleTwo.html">Incubator News</a></span>
+            <span class = "captionText">Converge  Challenge raises the bar once again £150,000...</span>
+        </div>
+        <div class="articles">
+            <img class = "images" src="images/newsImages/newsImg3.jpg"/>
+            <span class="caption"><a href = "#">Harris CapRock</a></span>
+            <span class = "captionText">Many thanks from RGU CSDM to the team at Harris CapRock for...</span>
+        </div>
+        <div class="articles">
+            <img class = "images" src="images/newsImages/newsImg4.jpg"/>
+            <span class="caption"><a href = "#">EANN 2016</a></span>
+            <span class = "captionText">The 17th International Conference on Engineering...</span>
+        </div>
+        <div class="articles">
+            <img class = "images" src="images/newsImages/newsImg5.jpg"/>
+            <span class="caption"><a href = "#">Computer Game Competition</a></span>
+            <span class = "captionText">Do you want a chance of winning a BAFTA?...</span>
+        </div>
+        <div class="articles">
+            <img class = "images" src="images/newsImages/newsImg6.jpg"/>
+            <span class="caption"><a href = "#">Student Placement Experience – Emma</a></span>
+            <span class = "captionText">In our fifth post in our Student Placement...</span>
+        </div>
+        <div class="articles">
+            <img class = "images" src="images/newsImages/newsImg7.jpg"/>
+            <span class="caption"><a href = "#">Student Placement Experience – Stuart</a></span>
+            <span class = "captionText">Name of Company: Edenspiekermann Location: Berlin...</span>
+        </div>
+        <div class="articles">
+            <img class = "images" src="images/newsImages/newsImg8.jpg"/>
+            <span class="caption"><a href = "#">Quadcopter Flights</a></span>
+            <span class = "captionText">Last week Daniel Doolan assisted  some of his...</span>
+        </div>
+        <div class="articles">
+            <img class = "images" src="images/newsImages/newsImg9.jpg"/>
+            <span class="caption"><a href = "#">24 Camera Raspberry Pi</a></span>
+            <span class = "captionText">The idea for this came from Dr. Andrew Robinson...</span>
+        </div>
+        <div class="articles">
+            <img class = "images" src="images/newsImages/newsImg10.jpg"/>
+            <span class="caption"><a href = "#">New Nursing Professor to deliver professorial lecture</a></span>
+            <span class = "captionText">My name is Michael Crabb and I started at RGU...</span>
+        </div>
+    </section>
+    <!--End of the relative content placement section-->
     <br><hr id = "pageEnd"><br>
 </main>
 <!--End of the main container-->
-
 <!--Code for the footer-->
 <footer>
     <p>School of Computer Science and Digital Media</p>
 </footer>
 <!--End of footer Code-->
-
 </body>
 </html>

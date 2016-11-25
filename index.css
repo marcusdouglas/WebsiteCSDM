@@ -72,9 +72,12 @@ body {
     /*A little CSS for mock search bar*/
     #search {
         float: right;
-        width: 200px;
         margin-top: 20px;
         margin-right: 20px;
+    }
+
+    #inputBar {
+        width: 200px;
     }
 
     footer {
@@ -152,8 +155,11 @@ body {
     /*A little CSS for mock search bar*/
     #search {
         float: left;
-        width: 100px;
-        margin-top: 10px;
+        margin-top: 8px;
+    }
+
+    #inputBar {
+        width: 80px;
     }
 
     footer {

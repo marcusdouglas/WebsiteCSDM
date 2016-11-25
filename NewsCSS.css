@@ -1,93 +1,116 @@
 /*CSS that designs the screen for a window/device size of < 1000px*/
 @media only screen and (max-width: 1000px) {
-    #text {
-        margin: 3%;
-        font-size: 14px;
-    }
-
     h2 {
         margin: 3%;
     }
+    div.articles {
+        vertical-align: top;
+        display: inline-block;
+        text-align: left;
+        width: 160px;
+        margin: 3%;
+    }
+    img.images {
+        width: 160px;
+        height: 160px;
+        border: 2px solid grey;
+    }
+    .caption {
+        display: block;
+        font-size: 18px;
+    }
 }
-
 /*CSS that designs the screen for a window/device size of > 1000px*/
 @media only screen and (min-width: 1000px) {
+    div.articles {
+        vertical-align: top;
+        display: inline-block;
+        text-align: left;
+        width: 200px;
+        padding: 1%;
+        margin: 1%;
+    }
+    img.images {
+        width: 200px;
+        height: 200px;
+        border: 2px solid grey;
+    }
+    .caption {
+        display: block;
+        font-size: 18px;
+    }
 }
-
 p {
     text-align: justify;
 }
-
-/*CSS that designs the page for windows/devices < 400px*/
-@media only screen and (max-width: 400px) {
-    #text {
-        margin: 8%;
-    }
-
+/*CSS that designs the page for windows/devices < 500px*/
+@media only screen and (max-width: 500px) {
     h1 {
         margin-left: 8%;
     }
-
     h2 {
         margin: 8%;
     }
+    div.articles {
+        vertical-align: top;
+        display: inline-block;
+        text-align: center;
+        width: 120px;
+        margin-left: 8%;
+    }
+    img.images {
+        width: 120px;
+        height: 120px;
+        border: 2px solid grey;
+    }
+    .caption {
+        display: block;
+    }
 }
-
-/*CSS that colours the navigation bars text depending on the active page and when the mouse hovers over it*/
+/*CSS that colours the navigation bars text depending on the active page andwhen the mouse hovers over it*/
 li a.active {
     color: #E5212A;
 }
-
 #home a:hover {
     color: #2B77EC;
     animation-name: home;
     animation-duration: 0.5s;
 }
-
 @keyframes home {
     from {color: white;}
     to {color: #2B77EC;}
 }
-
 #about a:hover {
     color: #FFF829;
     animation-name: about;
     animation-duration: 0.5s;
 }
-
 @keyframes about {
     from {color: white;}
     to {color: #FFF829;}
-}
-
-#research a:hover {
-    color: #60EC3D;
-    animation-name: research;
-    animation-duration: 0.5s;
-}
-
+}    #research a:hover {
+         color: #60EC3D;
+         animation-name: research;
+         animation-duration: 0.5s;
+     }
 @keyframes research {
     from {color: white;}
     to {color: #60EC3D}
 }
-
 #courses a:hover {
     color: #FF5F15;
     animation-name: courses;
     animation-duration: 0.5s;
 }
-
 @keyframes courses {
     from {color: white;}
     to {color: #FF5F15}
 }
-
 #faq a:hover {
     color: #A12CF8;
     animation-name: faq;
     animation-duration: 0.5s;
 }
-
 @keyframes faq {
     from {color: white;}
     to {color: #A12CF8}

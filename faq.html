@@ -34,7 +34,7 @@
             <li id = "research"> <a class = "tabs" href = "research.html">Research</a></li>
             <li id = "courses"> <a class = "tabs" href = "courses.html">Our Courses</a></li>
             <li id = "faq"> <a class = "active" href = "#">FAQs</a></li>
-            <li><input id = "search" type = "search" placeholder = "Search"></li>
+            <li id = "search"><input id = "inputBar" type = "search"  placeholder = "Search"/><a href = "#"><input type = "submit" value = "Go"/></a></li>
         </ul>
     </nav>
 
@@ -57,8 +57,8 @@
 
             <!--Creates the social media logos-->
             <h3>Find us on Social Media</h3>
-                <a id = "afacebook" href = "https://www.facebook.com/groups/CSRGU/">
-                    <div id = "facebook"><b>f</b></div></a>
+            <a id = "afacebook" href = "https://www.facebook.com/groups/CSRGU/">
+                <div id = "facebook"><b>f</b></div></a>
 
             <a id = "atwitter" href = "https://twitter.com/RGUComputing?lang=en">
                 <div id = "twitter"><img id = "twitterImg" src = "images/twitterImg.png"></div></a>
@@ -77,46 +77,119 @@
 
 
     <!--The title of the relevant page is made here-->
-    <h1>Title</h1>
+    <h1>Frequently Asked Questions</h1>
 
-    <br><br>
+    <!--All relevant page content to be written in here-->
+    <section id = "content">
 
-        <!--All relevant page content to be written in here-->
-        <section id = "content">
-            <h2>Sub Heading</h2>
-                <p id = "text">Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                    laborum. Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                    laborum.Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                    laborum. Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                    laborum.Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                    laborum. Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                    laborum.</p>
+        <!--All questions and answers relating to the heading/topic-->
+        <section id = "test">
+
+             <!--The first image-->
+            <section class = "right">
+                <img id = "img1" class = "contentImg" src="images/faqImages/faqImage1.jpg"/>
+            </section>
+
+            <!--Main heading for section of questions and answers-->
+            <!--<h2>Your Time at RGU Computer Science</h2>-->
+
+            <!--Question and answer-->
+            <section class = "questionAnswer">
+                <h3 class = "faqH3">Working Environments</h3>
+                <p class = "text">We stay studio-based for group work, with project labs - complete with customised
+                    workstations - available for Honours projects.
+                    <br><br>
+                    12 labs in total house over 250 state-of-the-art PCs, each updated over a 3 year cycle to ensure
+                    they deliver high performance and support the latest software. New facilities include our Mac Suite,
+                    which includes a soundproof booth used for podcasting, and the Green Screen Suite used in multimedia
+                    video production.</p>
+            </section>
+
+
+
+            <!--The second image-->
+            <section class = "left">
+                <img class = "contentImg" src="images/faqImages/faqImage2.jpg"/>
+            </section>
+
+            <!--Question and answer-->
+            <section class = "questionAnswer">
+                <h3 class = "faqH3">Societies and Extra Projects</h3>
+                <p class = "text">The RGU Computing Society hosts weekly meetups where you can find out about GitHub
+                Raspberry Pi, Drones and much more!
+                The society aims to introduce you to people who are already well established in the computing industry
+                so that you can begin to get an idea of how you might want to progress after you graduate.
+                </p>
+            </section>
+
         </section>
-        <!--End of the relative content placement section-->
+
+        <br><br><hr><br>
+
+        <!--All questions and answers relating to the heading/topic-->
+        <section>
+
+            <!--The third image-->
+            <section class = "right">
+                <img class = "contentImg" src="images/faqImages/faqImage3.jpg"/>
+            </section>
+
+            <!--Main heading for section of questions and answers-->
+            <h2>Our Courses and Applications</h2>
+
+            <!--Question and answer-->
+            <section class = "questionAnswer">
+                <h3 class ="faqH3">Applications</h3>
+                <p class = "text">Full time undergraduate applications are submitted via UCAS and all application
+                    deadlines for relevant courses adhere to the deadlines agreed by UCAS.
+                    <br><br>
+                    In order to guarantee equal consideration these should be submitted to UCAS by 15th January, however
+                    most courses will accept applications after this date.
+                    <br><br>
+                    For postgraduate, distance learning and short courses deadlines are agreed for individual courses.
+                    Individual application processes are included in the 'how to apply' section of each course entry.
+                    All our courses are listed in the Areas of Study section of the website.
+                    <br><br>
+                    If your application is submitted late the University reserves the right to reject your application,
+                    however we will do our best to consider it.
+                    <br><br>
+                    Late applicants may find they have access to a reduced number of courses and University
+                    accommodation may not be available.
+                </p>
+            </section>
+
+            <br>
+
+            <!--The fourth image-->
+            <section class = "left">
+                <img id = "img2" class = "contentImg" src="images/faqImages/faqImage4.jpg"/>
+            </section>
+
+            <!--Question and answer-->
+            <section class = "questionAnswer">
+                <h3 class ="faqH3">Our Courses</h3>
+                <p class = "text">Transferable skills gained in team-working, communication, presentation and other
+                    areas open doors in industry, as well as in research and development. Industrial projects and work
+                    placements ensure a fertile balance of professional experience and widely respected qualifications.
+                    <br><br>
+                    Established links with further education colleges have been highly successful in offering a direct
+                    entry route to Robert Gordon University for students with the relevant knowledge and skills.</p>
+            </section>
+
+            <!--Question and answer-->
+            <section class = "questionAnswer">
+                <h3 class ="faqH3">Foundation Year</h3>
+                <p class = "text">Your first year will introduce you to the creative, practical and intellectual skills
+                    you will need as a computing professional. You will learn skills in problem solving and modelling in
+                    a computing environment, skills in collaborating with others as part of a team, skills in software
+                    design and development and an understanding of how information technology is used in industry and
+                    commerce.</p>
+            </section>
+
+        </section>
+
+    </section>
+    <!--End of the relative content placement section-->
     <br><hr id = "pageEnd"><br>
 </main>
 <!--End of the main container-->
