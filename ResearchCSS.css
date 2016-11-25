@@ -8,7 +8,6 @@
     h2 {
         margin: 3%;
     }
-    /* Image Links */
 
     #firstCaption {
         width: 28%;
@@ -28,12 +27,14 @@
         width: 100%;
         border: 2px solid grey;
     }
-    /* End of Image Links */
+
+    .capText {
+        font-size: 18px;
+    }
 }
 
 /*CSS that designs the screen for a window/device size of > 1000px*/
 @media only screen and (min-width: 1000px) {
-    /* Image Links */
 
     #firstCaption {
         width: 28%;
@@ -53,16 +54,21 @@
         width: 100%;
         border: 2px solid grey;
     }
-    /* End of Image Links */
+
+    .capText {
+        font-size: 24px;
+    }
 }
+
 
 p {
     text-align: justify;
 }
 
-p.capText {
+.capText {
     text-align: center;
 }
+
 
 /*CSS that designs the page for windows/devices < 500px*/
 @media only screen and (max-width: 500px) {
