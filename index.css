@@ -71,15 +71,9 @@ body {
 
     /*A little CSS for mock search bar*/
     #search {
-        float: left;
+        float: right;
         width: 200px;
         margin-top: 20px;
-    }
-
-    #get {
-        float: left;
-        margin-top: 20px;
-        margin-right: 20px;
     }
 
     footer {
@@ -157,13 +151,12 @@ body {
     /*A little CSS for mock search bar*/
     #search {
         float: left;
-        width: 50px;
+
         margin-top: 10px;
     }
 
-    #get {
-        float: left;
-        margin-top: 10px;
+    #inputBar {
+        width: 100px;
     }
 
     footer {
