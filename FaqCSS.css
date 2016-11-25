@@ -39,7 +39,7 @@
     }
 
     #img2 {
-        max-height:260px;
+        max-height: 180px;
     }
 }
 
@@ -74,6 +74,10 @@
 
     #img2 {
         max-height: 260px;
+    }
+
+    #test {
+        margin-bottom: 100px;
     }
 }
 
@@ -120,6 +124,7 @@ p {
     .contentImg {
         width: 100%;
         border: 2px solid grey;
+        max-height: 260px;
     }
     
     #img1 {
