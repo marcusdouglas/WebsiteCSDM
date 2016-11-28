@@ -28,6 +28,11 @@
     #list {
         margin-left: 3%;
     }
+
+    p.text {
+        margin: 3%;
+        font-size: 14px;
+    }
 }
 
 /*CSS that designs the screen for a window/device size of > 1000px*/
@@ -62,7 +67,7 @@
     }
 
     h3 {
-        margin: 8%;
+        margin: 0;
     }
 
     div.left {
@@ -78,11 +83,16 @@
         width: 200px;
         height: 100px;
         padding: 11px;
-        margin: 0;
+        margin: 5%;
     }
 
     #list {
         width: 100px;
+        margin-left: 8%;
+    }
+
+    p.text {
+        margin: 8%;
     }
 }
 
