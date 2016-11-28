@@ -172,7 +172,7 @@ body {
     }
 }
 
-/*CSS that designs the a side bar for windows/devices < 650px*/
+/*CSS that designs the screen for windows/devices < 650px*/
 @media only screen and (max-width: 650px) {
 
     li a.active {
@@ -197,7 +197,7 @@ body {
 }
 
 
-/*CSS that designs the a side bar for windows/devices < 500px*/
+/*CSS that designs the screen for windows/devices < 500px*/
 @media only screen and (max-width: 500px) {
 
     #container {
