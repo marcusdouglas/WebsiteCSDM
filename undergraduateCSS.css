@@ -1,122 +1,110 @@
-#content {
-    margin-left: 0;
-    margin-right: 35%;
-}
-
-img.contentImg {
-    border: 2px solid grey;
-    width: 70%;
-    height: 80%;
-}
-
 /*CSS that designs the screen for a window/device size of < 1000px*/
- @media only screen and (max-width: 1000px) {
-     #text {
-                margin: 3%;
-                font-size: 14px;
-             }
+@media only screen and (max-width: 1000px) {
+    .contentImg {
+        width: 50%;
+        border: 2px solid grey;
+    }
+
+    figure {
+        margin-left: 3%;
+    }
+}
 
 
-     h2 {
-                   margin: 3%;
-               }
- }
+/*CSS that designs the screen for a window/device size of > 1000px*/
+@media only screen and (min-width: 1000px) {
+    .contentImg {
+        width: 50%;
+        border: 2px solid grey;
+    }
+
+    figure {
+        margin: 0;
+    }
+}
 
 
- /*CSS that designs the screen for a window/device size of > 1000px*/
- @media only screen and (min-width: 1000px) {
- }
+/*CSS that designs the page for windows/devices < 500px*/
+@media only screen and (max-width: 500px) {
+    h1 {
+        margin-left: 8%;
+    }
+
+    figure {
+        margin: 8%;
+    }
+}
+
+figcaption {
+    text-align: justify;
+}
+
+/*CSS that colours the navigation bars text depending on the active page and when the mouse hovers over it*/
+li a.active {
+    color: #FF5F15;
+}
 
 
-  {
-         text-align: justify;
-     }
+#home a:hover {
+    color: #2B77EC;
+    animation-name: home;
+    animation-duration: 0.5s;
+}
 
 
- /*CSS that designs the page for windows/devices < 500px*/
- @media only screen and (max-width: 500px) {
-     #text {
-                 margin: 8%;
-             }
+@keyframes home {
+    from {color: white;}
+    to {color: #2B77EC;}
+}
 
 
-     h1 {
-                    margin-left: 8%;
-                }
+#news a:hover {
+    color: #E5212A;
+    animation-name: news;
+    animation-duration: 0.5s;
+}
 
 
-     h2 {
-                    margin: 8%;
-                }
- }
+@keyframes news {
+    from {color: white;}
+    to {color: #E5212A;}
+}
 
 
- /*CSS that colours the navigation bars text depending on the active page and when the mouse hovers over it*/
- li a.active {
-            color: #FF5F15;
-        }
+#about a:hover {
+    color: #FFF829;
+    animation-name: about;
+    animation-duration: 0.5s;
+}
 
 
- #home a:hover {
-            color: #2B77EC;
-            animation-name: home;
-            animation-duration: 0.5s;
-        }
+@keyframes about {
+    from {color: white;}
+    to {color: #FFF829;}
+}
 
 
- @keyframes home {
-     from {color: white;}
-     to {color: #2B77EC;}
- }
+#research a:hover {
+    color: #60EC3D;
+    animation-name: research;
+    animation-duration: 0.5s;
+}
 
 
- #news a:hover {
-            color: #E5212A;
-            animation-name: news;
-            animation-duration: 0.5s;
-        }
+@keyframes research {
+    from {color: white;}
+    to {color: #60EC3D}
+}
 
 
- @keyframes news {
-     from {color: white;}
-     to {color: #E5212A;}
- }
+#faq a:hover {
+    color: #A12CF8;
+    animation-name: faq;
+    animation-duration: 0.5s;
+}
 
 
- #about a:hover {
-            color: #FFF829;
-            animation-name: about;
-            animation-duration: 0.5s;
-        }
-
-
- @keyframes about {
-     from {color: white;}
-     to {color: #FFF829;}
- }
-
-
- #research a:hover {
-            color: #60EC3D;
-            animation-name: research;
-            animation-duration: 0.5s;
-        }
-
-
- @keyframes research {
-     from {color: white;}
-     to {color: #60EC3D}
- }
-
-
- #faq a:hover {
-            color: #A12CF8;
-            animation-name: faq;
-            animation-duration: 0.5s;
-        }
-
-
- @keyframes faq {
-     from {color: white;}
-     to {color: #A12CF8}
- }
+@keyframes faq {
+    from {color: white;}
+    to {color: #A12CF8}
+}
