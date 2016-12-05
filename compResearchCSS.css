@@ -65,6 +65,30 @@
     }
 }
 
+#figApplication {
+    background-color: #D0C0DC;
+    border: 2px solid #333333;
+}
+
+#figAim {
+    background-color: #D0C0DC;
+    border: 2px solid #333333;
+}
+
+.inFig {
+    padding-left: 5px;
+    color: black;
+}
+
+.inFigHeading {
+    padding-left: 10px;
+    color: black;
+}
+
+.inFigList {
+    padding-left: 30px;
+}
+
 /*CSS that designs the page for windows/devices < 500px*/
 @media only screen and (max-width: 500px) {
     #text {
