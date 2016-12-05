@@ -5,17 +5,64 @@
         font-size: 14px;
     }
 
-    h2 {
+    #subheading {
         margin: 3%;
+    }
+
+    #figApplication {
+        background-color: #D0C0DC;
+        border: 1px solid #333333;
+        margin-left: 3%;
+    }
+
+    #figAim {
+        background-color: #D0C0DC;
+        border: 1px solid #333333;
+        margin-left: 3%;
+    }
+
+    .inFig {
+        padding-left: 5px;
+        color: black;
+    }
+
+    .inFigHeading {
+        padding-left: 10px;
+        color: black;
+    }
+
+    .inFigList {
+        padding-left: 30px;
     }
 }
 
 /*CSS that designs the screen for a window/device size of > 1000px*/
 @media only screen and (min-width: 1000px) {
-}
+    #figApplication {
+        background-color: #D0C0DC;
+        border: 1px solid #333333;
+        margin-left: 0;
+    }
 
-p {
-    text-align: justify;
+    #figAim {
+        background-color: #D0C0DC;
+        border: 1px solid #333333;
+        margin-left: 0;
+    }
+
+    .inFig {
+        padding-left: 5px;
+        color: black;
+    }
+
+    .inFigHeading {
+        padding-left: 10px;
+        color: black;
+    }
+
+    .inFigList {
+        padding-left: 30px;
+    }
 }
 
 #figApplication {
@@ -52,9 +99,39 @@ p {
         margin-left: 8%;
     }
 
-    h2 {
-        margin: 8%;
+    #subheading {
+        margin-left: 8%;
     }
+
+    #figApplication {
+        background-color: #D0C0DC;
+        border: 1px solid #333333;
+        margin-left: 8%;
+    }
+
+    #figAim {
+        background-color: #D0C0DC;
+        border: 1px solid #333333;
+        margin-left: 8%;
+    }
+
+    .inFig {
+        padding-left: 5px;
+        color: black;
+    }
+
+    .inFigHeading {
+        padding-left: 10px;
+        color: black;
+    }
+
+    .inFigList {
+        padding-left: 30px;
+    }
+}
+
+p {
+    text-align: justify;
 }
 
 /*CSS that colours the navigation bars text depending on the active page and when the mouse hovers over it*/
