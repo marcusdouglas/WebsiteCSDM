@@ -74,22 +74,6 @@
     }
 }
 
-/*CSS for the colour of the topic headings*/
-#cap1 {
-    color: red;
-    padding: 0;
-}
-
-#cap2 {
-    color: #E5CD00;
-    padding: 0;
-}
-
-#cap3 {
-    color: #23C6D0;
-    padding: 0;
-}
-
 p {
     text-align: justify;
 }
