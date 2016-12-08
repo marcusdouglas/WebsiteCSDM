@@ -1,3 +1,51 @@
+
+Gmail
+COMPOSE
+Labels
+Inbox (875)
+Starred
+Important
+Sent Mail
+Drafts (5)
+Circles
+Notes
+Personal
+Travel
+More 
+Hangouts
+
+ 
+ 
+ 
+  More 
+1 of 1,714  
+ 
+Print all In new window
+About Us Code
+Inbox
+x 
+
+MARCUS DOUGLAS (1603416)
+Attachments10:30 AM (16 minutes ago)
+
+to me 
+This is  the code for the About Us page.
+Please consider the environment before printing this email Robert Gordon University is the top university for graduate jobs in the UK (HESA 2013 & 2014) Robert Gordon University, a Scottish charity registered under charity number SC 013781. This e-mail and any attachment is for authorised use by the intended recipient(s) only. It may contain proprietary material, confidential information and/or be subject to legal privilege. It should not be copied, disclosed to, retained or used by, any other party. If you are not an intended recipient then please promptly delete this e-mail and any attachment and all copies and inform the sender. Please note that any views or opinions presented in this email are solely those of the author and do not necessarily represent those of Robert Gordon University. Thank you.
+2 Attachments 
+ 
+	
+Click here to Reply or Forward
+0.41 GB (2%) of 15 GB used
+Manage
+Terms - Privacy
+Last account activity: 14 minutes ago
+Details
+MARCUS DOUGLAS (1603416)
+Add to circles
+
+Show details
+
+
 /*CSS that designs the screen for a window/device size of < 1000px*/
 @media only screen and (max-width: 1000px) {
     #text {
@@ -8,14 +56,67 @@
     h2 {
         margin: 3%;
     }
+
+    .boxHeader {
+        margin-left: 3%;
+    }
+
+    .contentLeft {
+        display: inline-block;
+        margin-top: 3%;
+        margin-left: 3%;
+        margin-right: 6%;
+        background-color: white;
+        border: 2px solid grey;
+    }
+
+    .contentRight {
+        display: inline-block;
+        margin-top: 3%;
+        margin-left: 3%;
+        background-color: white;
+        border: 2px solid grey;
+    }
+
+    .boxContent {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    #international {
+        width: 306px;
+    }
 }
 
 /*CSS that designs the screen for a window/device size of > 1000px*/
 @media only screen and (min-width: 1000px) {
-}
+    .boxHeader {
+        margin-left: 3%;
+    }
 
-p {
-    text-align: justify;
+    .contentLeft {
+        display: inline-block;
+        margin-top: 3%;
+        margin-right: 12%;
+        background-color: white;
+        border: 2px solid grey;
+    }
+
+    .contentRight {
+        display: inline-block;
+        margin-top: 3%;
+        background-color: white;
+        border: 2px solid grey;
+    }
+
+    .boxContent {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    #international {
+        width: 306px;
+    }
 }
 
 /*CSS that designs the page for windows/devices < 500px*/
@@ -31,6 +132,42 @@ p {
     h2 {
         margin: 8%;
     }
+
+    .boxHeader {
+        margin-left: 3%;
+    }
+
+    .contentLeft {
+        display: inline-block;
+        margin-top: 3%;
+        margin-left: 8%;
+        margin-right: 8%;
+        background-color: white;
+        border: 2px solid grey;
+    }
+
+    .contentRight {
+        display: inline-block;
+        margin-top: 3%;
+        margin-left: 8%;
+        margin-right: 8%;
+        background-color: white;
+        border: 2px solid grey;
+    }
+
+    .boxContent {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    #international {
+        width: 83%;
+        max-width: 306px;
+    }
+}
+
+p {
+    text-align: justify;
 }
 
 /*CSS that colours the navigation bars text depending on the active page and when the mouse hovers over it*/
