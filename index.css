@@ -93,6 +93,13 @@ body {
     }
 }
 
+/*Stops the search bar from going below the navigation tabs*/
+@media only screen and (max-width: 1150px) {
+    #inputBar {
+        width: 80px;
+    }
+}
+
 
 /*CSS that designs the screen for a window/device size of < 1000px*/
 @media only screen and (max-width: 1000px) {
