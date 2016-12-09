@@ -10,13 +10,11 @@
     }
 
     #figApplication {
-        background-color: #D0C0DC;
         border: 1px solid #333333;
         margin-left: 3%;
     }
 
     #figAim {
-        background-color: #D0C0DC;
         border: 1px solid #333333;
         margin-left: 3%;
     }
@@ -39,13 +37,11 @@
 /*CSS that designs the screen for a window/device size of > 1000px*/
 @media only screen and (min-width: 1000px) {
     #figApplication {
-        background-color: #D0C0DC;
         border: 1px solid #333333;
         margin-left: 0;
     }
 
     #figAim {
-        background-color: #D0C0DC;
         border: 1px solid #333333;
         margin-left: 0;
     }
@@ -80,13 +76,11 @@
     }
 
     #figApplication {
-        background-color: #D0C0DC;
         border: 1px solid #333333;
         margin-left: 8%;
     }
 
     #figAim {
-        background-color: #D0C0DC;
         border: 1px solid #333333;
         margin-left: 8%;
     }

@@ -30,6 +30,10 @@
         margin-left: 8%;
     }
 
+    .contentImg {
+        width: 100%;
+    }
+
     figure {
         margin: 8%;
     }
