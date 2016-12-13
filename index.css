@@ -84,12 +84,24 @@ body {
         background-color: #27272A;
         color: white;
         font-size: 14px;
-        height: 40px;
+        padding: 12px;
         margin-top: 2%;
         margin-left: 4%;
         margin-right: 4%;
-        padding: 8px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    #textLeft {
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+    }
+
+    #textRight {
+        margin: 0;
+        padding: 0;
+        float: right;
+        display: inline-block;
     }
 }
 
@@ -173,9 +185,30 @@ body {
         background-color: #27272A;
         color: white;
         font-size: 14px;
-        height: 40px;
         padding: 8px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    #textLeft {
+        margin-top: 0;
+        margin-bottom: 12px;
+        padding: 0;
+        display: block;
+        text-align: center;
+    }
+
+    #textRight {
+        margin: 0;
+        padding: 0;
+        display: block;
+        text-align: center;
+    }
+
+    #footerMediaContainer {
+        margin-top: 12px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 174px;
     }
 }
 
@@ -283,7 +316,7 @@ a {
 }
 
 
-/*Code for designing the social media app logos*/
+/*Code for designing the social media app logos in the side bar*/
 #facebook {
     background-color: #333;
     color: white;
@@ -377,4 +410,100 @@ a {
 #pageEnd {
     width: 85%;
     border-width: 0;
+}
+
+
+/*When the side bar is removed at < 1000px, the social media icons appear in the footer*/
+@media all and (min-width: 1000px) {
+    #footerMediaContainer{ display: none; }
+}
+
+
+/*Code for designing the social media app logos within the footer*/
+#facebookFooter {
+    background-color: #333;
+    color: white;
+    display: inline-block;
+    font-size: 40px;
+    text-align: center;
+    width: 50px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#facebookFooter:hover {
+    background-color: #084289;
+    animation-name: fbookFooter;
+    animation-duration: 0.5s;
+}
+
+@keyframes fbookFooter {
+    from {background-color: #333;}
+    to {background-color: #084289;}
+}
+
+#afacebookFooter:hover {
+    text-decoration: none;
+}
+
+#twitterFooter {
+    background-color: #333;
+    display: inline-block;
+    margin-left: 5%;
+    font-size: 40px;
+    text-align: center;
+    width: 50px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#twitterImgFooter {
+    width: 50%;
+    /*-webkit-filter: invert(80%); Safari 6.0 - 9.0
+    filter: invert(80%);*/
+}
+
+#twitterFooter:hover {
+    background-color: #29CAEE;
+    animation-name: twitFooter;
+    animation-duration: 0.5s;
+}
+
+@keyframes twitFooter {
+    from {background-color: #333;}
+    to {background-color: #29CAEE;}
+}
+
+#atwitterFooter:hover {
+    text-decoration: none;
+}
+
+#youtubeFooter {
+    background-color: #333;
+    display: inline-block;
+    margin-left: 5%;
+    font-size: 40px;
+    text-align: center;
+    width: 50px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#youtubeImgFooter {
+    width: 65%;
+}
+
+#youtubeFooter:hover {
+    background-color: #E82323;
+    animation-name: utubeFooter;
+    animation-duration: 0.5s;
+}
+
+@keyframes utubeFooter {
+    from {background-color: #333;}
+    to {background-color: #E82323;}
+}
+
+#ayoutubeFooter:hover {
+    text-decoration: none;
 }
