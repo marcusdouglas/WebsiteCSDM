@@ -416,7 +416,7 @@ a {
 
 /*When the side bar is removed at < 1000px, the social media icons appear in the footer*/
 @media all and (min-width: 1000px) {
-    #footerMediaContainer{ display: none; }
+    .footerMediaContainer{ display: none; }
 }
 
 
