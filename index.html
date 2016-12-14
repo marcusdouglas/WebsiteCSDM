@@ -23,6 +23,92 @@
                 x.className = "nav-tabs";
             }
         }
+
+        function searchFunction() {
+            var nameArray = ["index", "news", "about", "research", "courses", "faq"];
+            var searchArray = [0, 0, 0, 0, 0, 0];
+
+            for (var i = 0; i < document.getElementById('inputBar').value.toLocaleLowerCase().length; i++) {
+                if (document.getElementById('inputBar').value.toLocaleLowerCase().charAt(i) === "a") {
+                    searchArray[3] += 1;
+                    searchArray[5] += 1;
+                } else if (document.getElementById('inputBar').value.toLocaleLowerCase().charAt(i) === "b") {
+                    searchArray[2] += 1;
+                } else if (document.getElementById('inputBar').value.toLocaleLowerCase().charAt(i) === "c") {
+                    searchArray[3] += 1;
+                    searchArray[4] += 1;
+                } else if (document.getElementById('inputBar').value.toLocaleLowerCase().charAt(i) === "d") {
+
+                } else if (document.getElementById('inputBar').value.toLocaleLowerCase().charAt(i) === "e") {
+                    searchArray[0] += 1;
+                    searchArray[1] += 1;
+                    searchArray[3] += 1;
+                    searchArray[4] += 1;
+                } else if (document.getElementById('inputBar').value.toLocaleLowerCase().charAt(i) === "f") {
+                    searchArray[5] += 1;
+                } else if (document.getElementById('inputBar').value.toLocaleLowerCase().charAt(i) === "g") {
+
+                } else if (document.getElementById('inputBar').value.toLocaleLowerCase().charAt(i) === "h") {
+                    searchArray[0] += 1;
+                    searchArray[3] += 1;
+                } else if (document.getElementById('inputBar').value.toLocaleLowerCase().charAt(i) === "i") {
+
+                } else if (document.getElementById('inputBar').value.toLocaleLowerCase().charAt(i) === "j") {
+
+                } else if (document.getElementById('inputBar').value.toLocaleLowerCase().charAt(i) === "k") {
+
+                } else if (document.getElementById('inputBar').value.toLocaleLowerCase().charAt(i) === "l") {
+
+                } else if (document.getElementById('inputBar').value.toLocaleLowerCase().charAt(i) === "m") {
+                    searchArray[0] += 1;
+                } else if (document.getElementById('inputBar').value.toLocaleLowerCase().charAt(i) === "n") {
+                    searchArray[1] += 1;
+                } else if (document.getElementById('inputBar').value.toLocaleLowerCase().charAt(i) === "o") {
+                    searchArray[0] += 1;
+                    searchArray[2] += 1;
+                    searchArray[4] += 1;
+                } else if (document.getElementById('inputBar').value.toLocaleLowerCase().charAt(i) === "p") {
+
+                } else if (document.getElementById('inputBar').value.toLocaleLowerCase().charAt(i) === "q") {
+                    searchArray[5] += 1;
+                } else if (document.getElementById('inputBar').value.toLocaleLowerCase().charAt(i) === "r") {
+                    searchArray[3] += 1;
+                    searchArray[4] += 1;
+                } else if (document.getElementById('inputBar').value.toLocaleLowerCase().charAt(i) === "s") {
+                    searchArray[1] += 1;
+                    searchArray[3] += 1;
+                    searchArray[4] += 1;
+                } else if (document.getElementById('inputBar').value.toLocaleLowerCase().charAt(i) === "t") {
+                    searchArray[2] += 1;
+                } else if (document.getElementById('inputBar').value.toLocaleLowerCase().charAt(i) === "u") {
+                    searchArray[2] += 1;
+                    searchArray[4] += 1;
+                } else if (document.getElementById('inputBar').value.toLocaleLowerCase().charAt(i) === "v") {
+
+                } else if (document.getElementById('inputBar').value.toLocaleLowerCase().charAt(i) === "w") {
+                    searchArray[1] += 1;
+                } else if (document.getElementById('inputBar').value.toLocaleLowerCase().charAt(i) === "x") {
+
+                } else if (document.getElementById('inputBar').value.toLocaleLowerCase().charAt(i) === "y") {
+
+                } else if (document.getElementById('inputBar').value.toLocaleLowerCase().charAt(i) === "z") {
+
+                }
+            }
+
+            var result = "";
+            var highestCount = 0;
+
+            for (var i = 0; i < searchArray.length; i++) {
+                if (highestCount < searchArray[i]) {
+                    highestCount = searchArray[i];
+                    result = nameArray[i];
+                }
+            }
+            document.getElementById('sub');
+                window.location = 'http://websitecsdm.azurewebsites.net/' + result + ".html";
+                return false;
+        }
     </script>
 
 </head>
@@ -45,7 +131,7 @@
             <li id = "research"> <a class = "tabs" href = "research.html">Research</a></li>
             <li id = "courses"> <a class = "tabs" href = "courses.html">Our Courses</a></li>
             <li id = "faq"> <a class = "tabs" href = "faq.html">FAQs</a></li>
-            <li id = "search"><input id = "inputBar" type = "search"  placeholder = "Search"/><input type = "submit" value = "Go"/></li>
+            <li id = "search"><input id = "inputBar" type = "search"  placeholder = "Search"/><input onclick = "searchFunction()" id = "sub" type = "submit" value = "Go"/></li>
             <li class="icon">
                 <a href = "javascript:void(0);" style = "font-size: 16px;" onclick = "myFunction()">☰</a>
             </li>
