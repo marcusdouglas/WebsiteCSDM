@@ -14,6 +14,17 @@
     <link rel = "stylesheet" href = "index.css" type = "text/css">
     <link rel = "stylesheet" href = "articleCSS.css" type = "text/css">
 
+    <script>
+        function myFunction() {
+            var x = document.getElementById("collapseNav");
+            if (x.className === "nav-tabs") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav-tabs";
+            }
+        }
+    </script>
+
 </head>
 <!--End of CSS-->
 
@@ -27,14 +38,17 @@
 
     <!--Creates a list which is styled in CSS to make a navigation bar-->
     <nav>
-        <ul id = "nav-tabs">
+        <ul class = "nav-tabs" id = "collapseNav">
             <li id = "home"> <a class = "tabs" href = "index.html">Home</a></li>
             <li id = "news"> <a class = "active" href = "news.html">News</a></li>
             <li id = "about"> <a class = "tabs" href = "about.html">About Us</a></li>
             <li id = "research"> <a class = "tabs" href = "research.html">Research</a></li>
             <li id = "courses"> <a class = "tabs" href = "courses.html">Our Courses</a></li>
             <li id = "faq"> <a class = "tabs" href = "faq.html">FAQs</a></li>
-            <li id = "search"><input id = "inputBar" type = "search"  placeholder = "Search"/><a href = "#"><input type = "submit" value = "Go"/></a></li>
+            <li id = "search"><input id = "inputBar" type = "search"  placeholder = "Search"/><input type = "submit" value = "Go"/></li>
+            <li class="icon">
+                <a href = "javascript:void(0);" style = "font-size: 16px;" onclick = "myFunction()">☰</a>
+            </li>
         </ul>
     </nav>
 
