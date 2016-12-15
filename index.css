@@ -80,7 +80,7 @@ ul.nav-tabs li.icon {
     }
 
     ul.nav-tabs li a {
-        font-size: 18px;
+        font-size: 17px;
     }
 }
 
@@ -196,7 +196,7 @@ ul.nav-tabs li.icon {
         float: left;
         padding-top: 14px;
         padding-left: 12px;
-        padding-bottom: 12px;
+        padding-bottom: 2px;
     }
 
     #inputBar {
