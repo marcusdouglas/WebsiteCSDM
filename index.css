@@ -80,7 +80,7 @@ ul.nav-tabs li.icon {
     }
 
     ul.nav-tabs li a {
-        font-size: 18px;
+        font-size: 17px;
     }
 }
 
@@ -194,7 +194,9 @@ ul.nav-tabs li.icon {
     /*A little CSS for mock search bar*/
     #search {
         float: left;
-        padding: 14px;
+        padding-top: 14px;
+        padding-left: 12px;
+        padding-bottom: 12px;
     }
 
     #inputBar {
