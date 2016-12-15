@@ -194,9 +194,7 @@ ul.nav-tabs li.icon {
     /*A little CSS for mock search bar*/
     #search {
         float: left;
-        padding-top: 14px;
-        padding-left: 12px;
-        padding-bottom: 2px;
+        padding: 14px;
     }
 
     #inputBar {
@@ -258,10 +256,6 @@ ul.nav-tabs li.icon {
     #logo {
         margin-top: 60px;
         margin-bottom: 5px;
-    }
-
-    #search {
-        padding: 14px;
     }
 }
 
